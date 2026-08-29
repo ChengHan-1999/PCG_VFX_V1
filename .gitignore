@@ -1,0 +1,34 @@
+# Unity-generated folders and IDE state
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]serSettings/
+.vs/
+.idea/
+
+# Unity-generated solution/project files
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.unityproj
+
+# Local DreamSim environment and downloaded model cache
+.dreamsim/
+models/
+
+# Thesis-only assets and non-final intermediate evaluation outputs
+Thesis_Draft_Assets/
+EvaluationCaptures/DreamSim/Static/
+EvaluationCaptures/DreamSim/Static_02/
+EvaluationCaptures/DreamSim/Dynamic/
+EvaluationResults/DreamSim/Static_02/
+EvaluationResults/UnityEvaluationExport.log
+EvaluationResults/DreamSim/UnityDreamSimCaptureCompile.log
+EvaluationResults/*.inspect.ndjson
+
+# Local diagnostic logs
+*.log

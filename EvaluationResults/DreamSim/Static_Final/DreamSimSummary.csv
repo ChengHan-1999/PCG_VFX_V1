@@ -1,0 +1,2 @@
+GeneratedAtUtc,Model,Device,ImageCount,PairCount,MeanDreamSimDistance,MedianDreamSimDistance,MinDreamSimDistance,MaxDreamSimDistance
+2026-08-24T10:52:53.837233+00:00,DreamSim ensemble (CLIP + DINO + OpenCLIP),cuda,6,15,0.24177525838216146,0.25241780281066895,0.07021337747573853,0.3183448314666748

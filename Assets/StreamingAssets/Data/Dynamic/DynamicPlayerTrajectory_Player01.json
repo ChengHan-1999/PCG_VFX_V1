@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "0.3.0",
+  "trajectoryId": "Dynamic_Player_01_Ice_To_Forest_Ocean_Ice",
+  "profileId": "Dynamic_Player_01",
+  "profileIntent": "Synthetic longitudinal showcase. Day 1 is an already-established Ice state with all three slots populated. Later, recently reinforced Forest and Ocean activity progressively replaces the initial state; a late Ice encounter and Snowfield return restore Ice.",
+  "halfLifeDays": 15.0,
+  "bossRecencyHalfLifeDays": 4.0,
+  "themeTemporalSmoothingAlpha": 0.75,
+  "themeConfidenceThreshold": 0.20,
+  "themeMarginThreshold": 0.02,
+  "initialPlayerLevel": 38,
+  "initialWeapons": [
+    { "weaponId": "Sword", "owned": true, "weaponLevel": 6, "initialEffectiveUseAmount": 360.0, "initialActiveResourceInvestment": 800.0, "initialAvailableCombatMinutes": 390.0 },
+    { "weaponId": "Bow", "owned": false, "weaponLevel": 0, "initialEffectiveUseAmount": 0.0, "initialActiveResourceInvestment": 0.0, "initialAvailableCombatMinutes": 0.0 },
+    { "weaponId": "Axe", "owned": false, "weaponLevel": 0, "initialEffectiveUseAmount": 0.0, "initialActiveResourceInvestment": 0.0, "initialAvailableCombatMinutes": 0.0 },
+    { "weaponId": "Staff", "owned": false, "weaponLevel": 0, "initialEffectiveUseAmount": 0.0, "initialActiveResourceInvestment": 0.0, "initialAvailableCombatMinutes": 0.0 },
+    { "weaponId": "Dagger", "owned": false, "weaponLevel": 0, "initialEffectiveUseAmount": 0.0, "initialActiveResourceInvestment": 0.0, "initialAvailableCombatMinutes": 0.0 },
+    { "weaponId": "Hammer", "owned": false, "weaponLevel": 0, "initialEffectiveUseAmount": 0.0, "initialActiveResourceInvestment": 0.0, "initialAvailableCombatMinutes": 0.0 }
+  ],
+  "initialBossDefeatEvents": [
+    { "bossId": "IceDragon", "bossLevel": 40, "playerLevelAtFirstDefeat": 39, "attemptCountAtFirstDefeat": 10, "winCount": 3, "totalAttemptCount": 10 }
+  ],
+  "initialRegions": [
+    { "regionId": "SnowfieldRuins", "regionLevel": 40, "completedExplorationPoints": 92.0, "totalExplorationPoints": 100.0, "completedRegionalQuests": 36.0, "totalRegionalQuests": 40.0, "initialRecentVisitMinutes": 0.0, "initialAvailablePlayMinutes": 0.0 },
+    { "regionId": "ForestRuins", "regionLevel": 18, "completedExplorationPoints": 0.0, "totalExplorationPoints": 90.0, "completedRegionalQuests": 0.0, "totalRegionalQuests": 38.0, "initialRecentVisitMinutes": 0.0, "initialAvailablePlayMinutes": 0.0 },
+    { "regionId": "OceanRuins", "regionLevel": 32, "completedExplorationPoints": 0.0, "totalExplorationPoints": 85.0, "completedRegionalQuests": 0.0, "totalRegionalQuests": 28.0, "initialRecentVisitMinutes": 0.0, "initialAvailablePlayMinutes": 0.0 },
+    { "regionId": "SkyRuins", "regionLevel": 45, "completedExplorationPoints": 0.0, "totalExplorationPoints": 80.0, "completedRegionalQuests": 0.0, "totalRegionalQuests": 32.0, "initialRecentVisitMinutes": 0.0, "initialAvailablePlayMinutes": 0.0 },
+    { "regionId": "MonasteryRuins", "regionLevel": 38, "completedExplorationPoints": 0.0, "totalExplorationPoints": 110.0, "completedRegionalQuests": 0.0, "totalRegionalQuests": 42.0, "initialRecentVisitMinutes": 0.0, "initialAvailablePlayMinutes": 0.0 }
+  ],
+  "eventNodes": [
+    {
+      "nodeId": "Day01_IceBaseline",
+      "day": 1.0,
+      "playerLevel": 39,
+      "expectedTheme": "Ice",
+      "expectedDirection": "InitialState",
+      "isTransitionNode": false,
+      "weaponUseEvents": [ { "weaponId": "Sword", "combatMinutes": 90.0, "availableCombatMinutes": 105.0 } ],
+      "weaponInvestmentEvents": [ { "weaponId": "Sword", "resourceAmount": 150.0, "weaponLevelAfterEvent": 7 } ],
+      "bossDefeatEvents": [],
+      "regionProgressEvents": []
+    },
+    {
+      "nodeId": "Day04_IceSettled",
+      "day": 4.0,
+      "playerLevel": 40,
+      "expectedTheme": "Ice",
+      "expectedDirection": "MaintainIce",
+      "isTransitionNode": false,
+      "weaponUseEvents": [ { "weaponId": "Sword", "combatMinutes": 110.0, "availableCombatMinutes": 125.0 } ],
+      "weaponInvestmentEvents": [ { "weaponId": "Sword", "resourceAmount": 180.0, "weaponLevelAfterEvent": 8 } ],
+      "bossDefeatEvents": [],
+      "regionProgressEvents": []
+    },
+    {
+      "nodeId": "Day08_ForestCommitment",
+      "day": 8.0,
+      "playerLevel": 42,
+      "expectedTheme": "Forest",
+      "expectedDirection": "IceToForest",
+      "isTransitionNode": true,
+      "weaponUseEvents": [ { "weaponId": "Bow", "combatMinutes": 300.0, "availableCombatMinutes": 330.0 }, { "weaponId": "Sword", "combatMinutes": 25.0, "availableCombatMinutes": 110.0 } ],
+      "weaponInvestmentEvents": [ { "weaponId": "Bow", "resourceAmount": 700.0, "weaponLevelAfterEvent": 7 } ],
+      "bossDefeatEvents": [],
+      "regionProgressEvents": [ { "regionId": "ForestRuins", "regionLevel": 18, "completedExplorationPoints": 82.0, "totalExplorationPoints": 90.0, "completedRegionalQuests": 32.0, "totalRegionalQuests": 38.0, "visitMinutes": 650.0, "availablePlayMinutes": 700.0 } ]
+    },
+    {
+      "nodeId": "Day14_ForestMastery",
+      "day": 14.0,
+      "playerLevel": 45,
+      "expectedTheme": "Forest",
+      "expectedDirection": "MaintainForest",
+      "isTransitionNode": false,
+      "weaponUseEvents": [ { "weaponId": "Bow", "combatMinutes": 360.0, "availableCombatMinutes": 395.0 } ],
+      "weaponInvestmentEvents": [ { "weaponId": "Bow", "resourceAmount": 800.0, "weaponLevelAfterEvent": 10 } ],
+      "bossDefeatEvents": [],
+      "regionProgressEvents": [ { "regionId": "ForestRuins", "regionLevel": 18, "completedExplorationPoints": 88.0, "totalExplorationPoints": 90.0, "completedRegionalQuests": 36.0, "totalRegionalQuests": 38.0, "visitMinutes": 500.0, "availablePlayMinutes": 550.0 } ]
+    },
+    {
+      "nodeId": "Day20_OceanDiscovery",
+      "day": 20.0,
+      "playerLevel": 48,
+      "expectedTheme": "Forest",
+      "expectedDirection": "MaintainForest",
+      "isTransitionNode": false,
+      "weaponUseEvents": [ { "weaponId": "Bow", "combatMinutes": 150.0, "availableCombatMinutes": 220.0 } ],
+      "weaponInvestmentEvents": [ { "weaponId": "Bow", "resourceAmount": 200.0, "weaponLevelAfterEvent": 11 } ],
+      "bossDefeatEvents": [],
+      "regionProgressEvents": [ { "regionId": "OceanRuins", "regionLevel": 32, "completedExplorationPoints": 42.0, "totalExplorationPoints": 85.0, "completedRegionalQuests": 13.0, "totalRegionalQuests": 28.0, "visitMinutes": 240.0, "availablePlayMinutes": 300.0 }, { "regionId": "ForestRuins", "regionLevel": 18, "completedExplorationPoints": 89.0, "totalExplorationPoints": 90.0, "completedRegionalQuests": 37.0, "totalRegionalQuests": 38.0, "visitMinutes": 180.0, "availablePlayMinutes": 240.0 } ]
+    },
+    {
+      "nodeId": "Day27_SeaTurtleDefeat",
+      "day": 27.0,
+      "playerLevel": 52,
+      "expectedTheme": "Ocean",
+      "expectedDirection": "ForestToOcean",
+      "isTransitionNode": true,
+      "weaponUseEvents": [ { "weaponId": "Bow", "combatMinutes": 120.0, "availableCombatMinutes": 190.0 } ],
+      "weaponInvestmentEvents": [ { "weaponId": "Bow", "resourceAmount": 240.0, "weaponLevelAfterEvent": 12 } ],
+      "bossDefeatEvents": [ { "bossId": "SeaTurtle", "bossLevel": 55, "playerLevelAtFirstDefeat": 52, "attemptCountAtFirstDefeat": 4, "winCount": 1, "totalAttemptCount": 4 } ],
+      "regionProgressEvents": [ { "regionId": "OceanRuins", "regionLevel": 32, "completedExplorationPoints": 80.0, "totalExplorationPoints": 85.0, "completedRegionalQuests": 26.0, "totalRegionalQuests": 28.0, "visitMinutes": 1000.0, "availablePlayMinutes": 1060.0 } ]
+    },
+    {
+      "nodeId": "Day39_IceDragonRematch",
+      "day": 39.0,
+      "playerLevel": 57,
+      "expectedTheme": "Ice",
+      "expectedDirection": "OceanToIce",
+      "isTransitionNode": true,
+      "weaponUseEvents": [ { "weaponId": "Sword", "combatMinutes": 500.0, "availableCombatMinutes": 540.0 } ],
+      "weaponInvestmentEvents": [ { "weaponId": "Sword", "resourceAmount": 1300.0, "weaponLevelAfterEvent": 15 } ],
+      "bossDefeatEvents": [ { "bossId": "IceDragon", "bossLevel": 60, "playerLevelAtFirstDefeat": 57, "attemptCountAtFirstDefeat": 5, "winCount": 2, "totalAttemptCount": 6 } ],
+      "regionProgressEvents": [ { "regionId": "SnowfieldRuins", "regionLevel": 40, "completedExplorationPoints": 99.0, "totalExplorationPoints": 100.0, "completedRegionalQuests": 40.0, "totalRegionalQuests": 40.0, "visitMinutes": 1000.0, "availablePlayMinutes": 1060.0 } ]
+    }
+  ]
+}

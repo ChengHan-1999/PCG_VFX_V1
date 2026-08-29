@@ -1,0 +1,1288 @@
+{
+  "schemaVersion": "0.2.0",
+  "datasetName": "SyntheticPlayerProfiles",
+  "datasetPurpose": "Raw synthetic player behavior variables for player-journey-driven modular cosmetic VFX generation.",
+  "containsRealPlayerData": false,
+  "containsFinalScores": false,
+  "profileCount": 12,
+  "candidateSets": {
+    "weapons": [
+      "Sword",
+      "Bow",
+      "Axe",
+      "Staff",
+      "Dagger",
+      "Hammer"
+    ],
+    "bosses": [
+      "IceDragon",
+      "Goblin",
+      "SeaTurtle",
+      "StarGiant",
+      "AncientCultLeader"
+    ],
+    "regions": [
+      "SnowfieldRuins",
+      "ForestRuins",
+      "OceanRuins",
+      "SkyRuins",
+      "MonasteryRuins"
+    ]
+  },
+  "profiles": [
+    {
+      "identityId": "Player_01",
+      "profileIntent": "clear_bow_ice_snowfield",
+      "playerLevel": 42,
+      "weaponUsageData": [
+        {
+          "weaponId": "Sword",
+          "owned": true,
+          "weaponLevel": 15,
+          "effectiveUseAmount": 80,
+          "activeResourceInvestment": 900
+        },
+        {
+          "weaponId": "Bow",
+          "owned": true,
+          "weaponLevel": 38,
+          "effectiveUseAmount": 1280,
+          "activeResourceInvestment": 8600
+        },
+        {
+          "weaponId": "Axe",
+          "owned": true,
+          "weaponLevel": 12,
+          "effectiveUseAmount": 35,
+          "activeResourceInvestment": 400
+        },
+        {
+          "weaponId": "Staff",
+          "owned": true,
+          "weaponLevel": 18,
+          "effectiveUseAmount": 60,
+          "activeResourceInvestment": 700
+        },
+        {
+          "weaponId": "Dagger",
+          "owned": false,
+          "weaponLevel": 0,
+          "effectiveUseAmount": 0,
+          "activeResourceInvestment": 0
+        },
+        {
+          "weaponId": "Hammer",
+          "owned": false,
+          "weaponLevel": 0,
+          "effectiveUseAmount": 0,
+          "activeResourceInvestment": 0
+        }
+      ],
+      "bossCombatData": [
+        {
+          "bossId": "IceDragon",
+          "bossLevel": 40,
+          "playerLevelAtFirstDefeat": 39,
+          "attemptCountAtFirstDefeat": 6
+        },
+        {
+          "bossId": "SeaTurtle",
+          "bossLevel": 34,
+          "playerLevelAtFirstDefeat": 36,
+          "attemptCountAtFirstDefeat": 4
+        }
+      ],
+      "regionExplorationData": [
+        {
+          "regionId": "SnowfieldRuins",
+          "regionLevel": 38,
+          "completedExplorationPoints": 92,
+          "totalExplorationPoints": 100,
+          "completedRegionalQuests": 34,
+          "totalRegionalQuests": 40
+        },
+        {
+          "regionId": "ForestRuins",
+          "regionLevel": 32,
+          "completedExplorationPoints": 51,
+          "totalExplorationPoints": 90,
+          "completedRegionalQuests": 16,
+          "totalRegionalQuests": 38
+        },
+        {
+          "regionId": "OceanRuins",
+          "regionLevel": 34,
+          "completedExplorationPoints": 30,
+          "totalExplorationPoints": 85,
+          "completedRegionalQuests": 8,
+          "totalRegionalQuests": 28
+        },
+        {
+          "regionId": "SkyRuins",
+          "regionLevel": 43,
+          "completedExplorationPoints": 22,
+          "totalExplorationPoints": 80,
+          "completedRegionalQuests": 5,
+          "totalRegionalQuests": 32
+        },
+        {
+          "regionId": "MonasteryRuins",
+          "regionLevel": 40,
+          "completedExplorationPoints": 45,
+          "totalExplorationPoints": 110,
+          "completedRegionalQuests": 12,
+          "totalRegionalQuests": 42
+        }
+      ]
+    },
+    {
+      "identityId": "Player_02",
+      "profileIntent": "clear_axe_star_sky",
+      "playerLevel": 46,
+      "weaponUsageData": [
+        {
+          "weaponId": "Sword",
+          "owned": true,
+          "weaponLevel": 20,
+          "effectiveUseAmount": 130,
+          "activeResourceInvestment": 1500
+        },
+        {
+          "weaponId": "Bow",
+          "owned": true,
+          "weaponLevel": 14,
+          "effectiveUseAmount": 45,
+          "activeResourceInvestment": 300
+        },
+        {
+          "weaponId": "Axe",
+          "owned": true,
+          "weaponLevel": 41,
+          "effectiveUseAmount": 1460,
+          "activeResourceInvestment": 9400
+        },
+        {
+          "weaponId": "Staff",
+          "owned": false,
+          "weaponLevel": 0,
+          "effectiveUseAmount": 0,
+          "activeResourceInvestment": 0
+        },
+        {
+          "weaponId": "Dagger",
+          "owned": true,
+          "weaponLevel": 12,
+          "effectiveUseAmount": 50,
+          "activeResourceInvestment": 450
+        },
+        {
+          "weaponId": "Hammer",
+          "owned": true,
+          "weaponLevel": 23,
+          "effectiveUseAmount": 180,
+          "activeResourceInvestment": 2200
+        }
+      ],
+      "bossCombatData": [
+        {
+          "bossId": "StarGiant",
+          "bossLevel": 44,
+          "playerLevelAtFirstDefeat": 44,
+          "attemptCountAtFirstDefeat": 8
+        },
+        {
+          "bossId": "Goblin",
+          "bossLevel": 24,
+          "playerLevelAtFirstDefeat": 25,
+          "attemptCountAtFirstDefeat": 2
+        }
+      ],
+      "regionExplorationData": [
+        {
+          "regionId": "SnowfieldRuins",
+          "regionLevel": 38,
+          "completedExplorationPoints": 20,
+          "totalExplorationPoints": 100,
+          "completedRegionalQuests": 6,
+          "totalRegionalQuests": 40
+        },
+        {
+          "regionId": "ForestRuins",
+          "regionLevel": 32,
+          "completedExplorationPoints": 28,
+          "totalExplorationPoints": 90,
+          "completedRegionalQuests": 9,
+          "totalRegionalQuests": 38
+        },
+        {
+          "regionId": "OceanRuins",
+          "regionLevel": 34,
+          "completedExplorationPoints": 27,
+          "totalExplorationPoints": 85,
+          "completedRegionalQuests": 6,
+          "totalRegionalQuests": 28
+        },
+        {
+          "regionId": "SkyRuins",
+          "regionLevel": 43,
+          "completedExplorationPoints": 88,
+          "totalExplorationPoints": 95,
+          "completedRegionalQuests": 31,
+          "totalRegionalQuests": 35
+        },
+        {
+          "regionId": "MonasteryRuins",
+          "regionLevel": 40,
+          "completedExplorationPoints": 39,
+          "totalExplorationPoints": 110,
+          "completedRegionalQuests": 8,
+          "totalRegionalQuests": 42
+        }
+      ]
+    },
+    {
+      "identityId": "Player_03",
+      "profileIntent": "clear_staff_cult_monastery",
+      "playerLevel": 48,
+      "weaponUsageData": [
+        {
+          "weaponId": "Sword",
+          "owned": true,
+          "weaponLevel": 24,
+          "effectiveUseAmount": 160,
+          "activeResourceInvestment": 1800
+        },
+        {
+          "weaponId": "Bow",
+          "owned": true,
+          "weaponLevel": 16,
+          "effectiveUseAmount": 75,
+          "activeResourceInvestment": 650
+        },
+        {
+          "weaponId": "Axe",
+          "owned": true,
+          "weaponLevel": 11,
+          "effectiveUseAmount": 30,
+          "activeResourceInvestment": 250
+        },
+        {
+          "weaponId": "Staff",
+          "owned": true,
+          "weaponLevel": 44,
+          "effectiveUseAmount": 1520,
+          "activeResourceInvestment": 10200
+        },
+        {
+          "weaponId": "Dagger",
+          "owned": false,
+          "weaponLevel": 0,
+          "effectiveUseAmount": 0,
+          "activeResourceInvestment": 0
+        },
+        {
+          "weaponId": "Hammer",
+          "owned": true,
+          "weaponLevel": 18,
+          "effectiveUseAmount": 95,
+          "activeResourceInvestment": 900
+        }
+      ],
+      "bossCombatData": [
+        {
+          "bossId": "AncientCultLeader",
+          "bossLevel": 45,
+          "playerLevelAtFirstDefeat": 46,
+          "attemptCountAtFirstDefeat": 7
+        },
+        {
+          "bossId": "IceDragon",
+          "bossLevel": 40,
+          "playerLevelAtFirstDefeat": 41,
+          "attemptCountAtFirstDefeat": 4
+        },
+        {
+          "bossId": "SeaTurtle",
+          "bossLevel": 34,
+          "playerLevelAtFirstDefeat": 36,
+          "attemptCountAtFirstDefeat": 2
+        }
+      ],
+      "regionExplorationData": [
+        {
+          "regionId": "SnowfieldRuins",
+          "regionLevel": 38,
+          "completedExplorationPoints": 56,
+          "totalExplorationPoints": 100,
+          "completedRegionalQuests": 18,
+          "totalRegionalQuests": 40
+        },
+        {
+          "regionId": "ForestRuins",
+          "regionLevel": 32,
+          "completedExplorationPoints": 46,
+          "totalExplorationPoints": 90,
+          "completedRegionalQuests": 15,
+          "totalRegionalQuests": 38
+        },
+        {
+          "regionId": "OceanRuins",
+          "regionLevel": 34,
+          "completedExplorationPoints": 41,
+          "totalExplorationPoints": 85,
+          "completedRegionalQuests": 14,
+          "totalRegionalQuests": 28
+        },
+        {
+          "regionId": "SkyRuins",
+          "regionLevel": 43,
+          "completedExplorationPoints": 29,
+          "totalExplorationPoints": 80,
+          "completedRegionalQuests": 9,
+          "totalRegionalQuests": 32
+        },
+        {
+          "regionId": "MonasteryRuins",
+          "regionLevel": 40,
+          "completedExplorationPoints": 97,
+          "totalExplorationPoints": 110,
+          "completedRegionalQuests": 36,
+          "totalRegionalQuests": 42
+        }
+      ]
+    },
+    {
+      "identityId": "Player_04",
+      "profileIntent": "mixed_bow_sword_regions_close",
+      "playerLevel": 44,
+      "weaponUsageData": [
+        {
+          "weaponId": "Sword",
+          "owned": true,
+          "weaponLevel": 34,
+          "effectiveUseAmount": 620,
+          "activeResourceInvestment": 2950
+        },
+        {
+          "weaponId": "Bow",
+          "owned": true,
+          "weaponLevel": 35,
+          "effectiveUseAmount": 600,
+          "activeResourceInvestment": 3000
+        },
+        {
+          "weaponId": "Axe",
+          "owned": true,
+          "weaponLevel": 22,
+          "effectiveUseAmount": 220,
+          "activeResourceInvestment": 1600
+        },
+        {
+          "weaponId": "Staff",
+          "owned": true,
+          "weaponLevel": 20,
+          "effectiveUseAmount": 180,
+          "activeResourceInvestment": 1200
+        },
+        {
+          "weaponId": "Dagger",
+          "owned": true,
+          "weaponLevel": 16,
+          "effectiveUseAmount": 150,
+          "activeResourceInvestment": 900
+        },
+        {
+          "weaponId": "Hammer",
+          "owned": false,
+          "weaponLevel": 0,
+          "effectiveUseAmount": 0,
+          "activeResourceInvestment": 0
+        }
+      ],
+      "bossCombatData": [
+        {
+          "bossId": "IceDragon",
+          "bossLevel": 40,
+          "playerLevelAtFirstDefeat": 42,
+          "attemptCountAtFirstDefeat": 5
+        },
+        {
+          "bossId": "StarGiant",
+          "bossLevel": 44,
+          "playerLevelAtFirstDefeat": 44,
+          "attemptCountAtFirstDefeat": 9
+        },
+        {
+          "bossId": "Goblin",
+          "bossLevel": 24,
+          "playerLevelAtFirstDefeat": 24,
+          "attemptCountAtFirstDefeat": 1
+        }
+      ],
+      "regionExplorationData": [
+        {
+          "regionId": "SnowfieldRuins",
+          "regionLevel": 38,
+          "completedExplorationPoints": 84,
+          "totalExplorationPoints": 100,
+          "completedRegionalQuests": 32,
+          "totalRegionalQuests": 40
+        },
+        {
+          "regionId": "ForestRuins",
+          "regionLevel": 32,
+          "completedExplorationPoints": 75,
+          "totalExplorationPoints": 90,
+          "completedRegionalQuests": 31,
+          "totalRegionalQuests": 38
+        },
+        {
+          "regionId": "OceanRuins",
+          "regionLevel": 34,
+          "completedExplorationPoints": 54,
+          "totalExplorationPoints": 85,
+          "completedRegionalQuests": 19,
+          "totalRegionalQuests": 28
+        },
+        {
+          "regionId": "SkyRuins",
+          "regionLevel": 43,
+          "completedExplorationPoints": 47,
+          "totalExplorationPoints": 80,
+          "completedRegionalQuests": 16,
+          "totalRegionalQuests": 32
+        },
+        {
+          "regionId": "MonasteryRuins",
+          "regionLevel": 40,
+          "completedExplorationPoints": 70,
+          "totalExplorationPoints": 110,
+          "completedRegionalQuests": 29,
+          "totalRegionalQuests": 42
+        }
+      ]
+    },
+    {
+      "identityId": "Player_05",
+      "profileIntent": "region_079_boundary_no_region_candidate",
+      "playerLevel": 33,
+      "weaponUsageData": [
+        {
+          "weaponId": "Sword",
+          "owned": true,
+          "weaponLevel": 20,
+          "effectiveUseAmount": 240,
+          "activeResourceInvestment": 1200
+        },
+        {
+          "weaponId": "Bow",
+          "owned": true,
+          "weaponLevel": 17,
+          "effectiveUseAmount": 110,
+          "activeResourceInvestment": 700
+        },
+        {
+          "weaponId": "Axe",
+          "owned": false,
+          "weaponLevel": 0,
+          "effectiveUseAmount": 0,
+          "activeResourceInvestment": 0
+        },
+        {
+          "weaponId": "Staff",
+          "owned": true,
+          "weaponLevel": 14,
+          "effectiveUseAmount": 90,
+          "activeResourceInvestment": 500
+        },
+        {
+          "weaponId": "Dagger",
+          "owned": true,
+          "weaponLevel": 26,
+          "effectiveUseAmount": 520,
+          "activeResourceInvestment": 2800
+        },
+        {
+          "weaponId": "Hammer",
+          "owned": false,
+          "weaponLevel": 0,
+          "effectiveUseAmount": 0,
+          "activeResourceInvestment": 0
+        }
+      ],
+      "bossCombatData": [
+        {
+          "bossId": "Goblin",
+          "bossLevel": 24,
+          "playerLevelAtFirstDefeat": 26,
+          "attemptCountAtFirstDefeat": 3
+        }
+      ],
+      "regionExplorationData": [
+        {
+          "regionId": "SnowfieldRuins",
+          "regionLevel": 38,
+          "completedExplorationPoints": 79,
+          "totalExplorationPoints": 100,
+          "completedRegionalQuests": 31,
+          "totalRegionalQuests": 40
+        },
+        {
+          "regionId": "ForestRuins",
+          "regionLevel": 32,
+          "completedExplorationPoints": 71,
+          "totalExplorationPoints": 90,
+          "completedRegionalQuests": 29,
+          "totalRegionalQuests": 38
+        },
+        {
+          "regionId": "OceanRuins",
+          "regionLevel": 34,
+          "completedExplorationPoints": 67,
+          "totalExplorationPoints": 85,
+          "completedRegionalQuests": 22,
+          "totalRegionalQuests": 28
+        },
+        {
+          "regionId": "SkyRuins",
+          "regionLevel": 43,
+          "completedExplorationPoints": 63,
+          "totalExplorationPoints": 80,
+          "completedRegionalQuests": 25,
+          "totalRegionalQuests": 32
+        },
+        {
+          "regionId": "MonasteryRuins",
+          "regionLevel": 40,
+          "completedExplorationPoints": 86,
+          "totalExplorationPoints": 110,
+          "completedRegionalQuests": 33,
+          "totalRegionalQuests": 42
+        }
+      ]
+    },
+    {
+      "identityId": "Player_06",
+      "profileIntent": "region_080_boundary_exact_candidate",
+      "playerLevel": 36,
+      "weaponUsageData": [
+        {
+          "weaponId": "Sword",
+          "owned": true,
+          "weaponLevel": 21,
+          "effectiveUseAmount": 260,
+          "activeResourceInvestment": 1600
+        },
+        {
+          "weaponId": "Bow",
+          "owned": false,
+          "weaponLevel": 0,
+          "effectiveUseAmount": 0,
+          "activeResourceInvestment": 0
+        },
+        {
+          "weaponId": "Axe",
+          "owned": true,
+          "weaponLevel": 18,
+          "effectiveUseAmount": 170,
+          "activeResourceInvestment": 900
+        },
+        {
+          "weaponId": "Staff",
+          "owned": true,
+          "weaponLevel": 30,
+          "effectiveUseAmount": 430,
+          "activeResourceInvestment": 3100
+        },
+        {
+          "weaponId": "Dagger",
+          "owned": true,
+          "weaponLevel": 16,
+          "effectiveUseAmount": 130,
+          "activeResourceInvestment": 850
+        },
+        {
+          "weaponId": "Hammer",
+          "owned": false,
+          "weaponLevel": 0,
+          "effectiveUseAmount": 0,
+          "activeResourceInvestment": 0
+        }
+      ],
+      "bossCombatData": [
+        {
+          "bossId": "SeaTurtle",
+          "bossLevel": 34,
+          "playerLevelAtFirstDefeat": 36,
+          "attemptCountAtFirstDefeat": 5
+        },
+        {
+          "bossId": "Goblin",
+          "bossLevel": 24,
+          "playerLevelAtFirstDefeat": 25,
+          "attemptCountAtFirstDefeat": 2
+        }
+      ],
+      "regionExplorationData": [
+        {
+          "regionId": "SnowfieldRuins",
+          "regionLevel": 38,
+          "completedExplorationPoints": 55,
+          "totalExplorationPoints": 100,
+          "completedRegionalQuests": 16,
+          "totalRegionalQuests": 40
+        },
+        {
+          "regionId": "ForestRuins",
+          "regionLevel": 32,
+          "completedExplorationPoints": 64,
+          "totalExplorationPoints": 90,
+          "completedRegionalQuests": 24,
+          "totalRegionalQuests": 38
+        },
+        {
+          "regionId": "OceanRuins",
+          "regionLevel": 34,
+          "completedExplorationPoints": 68,
+          "totalExplorationPoints": 85,
+          "completedRegionalQuests": 14,
+          "totalRegionalQuests": 28
+        },
+        {
+          "regionId": "SkyRuins",
+          "regionLevel": 43,
+          "completedExplorationPoints": 46,
+          "totalExplorationPoints": 80,
+          "completedRegionalQuests": 18,
+          "totalRegionalQuests": 32
+        },
+        {
+          "regionId": "MonasteryRuins",
+          "regionLevel": 40,
+          "completedExplorationPoints": 70,
+          "totalExplorationPoints": 110,
+          "completedRegionalQuests": 24,
+          "totalRegionalQuests": 42
+        }
+      ]
+    },
+    {
+      "identityId": "Player_07",
+      "profileIntent": "region_081_boundary_above_candidate",
+      "playerLevel": 45,
+      "weaponUsageData": [
+        {
+          "weaponId": "Sword",
+          "owned": true,
+          "weaponLevel": 18,
+          "effectiveUseAmount": 120,
+          "activeResourceInvestment": 900
+        },
+        {
+          "weaponId": "Bow",
+          "owned": true,
+          "weaponLevel": 19,
+          "effectiveUseAmount": 145,
+          "activeResourceInvestment": 1000
+        },
+        {
+          "weaponId": "Axe",
+          "owned": true,
+          "weaponLevel": 17,
+          "effectiveUseAmount": 110,
+          "activeResourceInvestment": 700
+        },
+        {
+          "weaponId": "Staff",
+          "owned": false,
+          "weaponLevel": 0,
+          "effectiveUseAmount": 0,
+          "activeResourceInvestment": 0
+        },
+        {
+          "weaponId": "Dagger",
+          "owned": true,
+          "weaponLevel": 15,
+          "effectiveUseAmount": 80,
+          "activeResourceInvestment": 550
+        },
+        {
+          "weaponId": "Hammer",
+          "owned": true,
+          "weaponLevel": 39,
+          "effectiveUseAmount": 980,
+          "activeResourceInvestment": 7200
+        }
+      ],
+      "bossCombatData": [
+        {
+          "bossId": "StarGiant",
+          "bossLevel": 44,
+          "playerLevelAtFirstDefeat": 45,
+          "attemptCountAtFirstDefeat": 8
+        },
+        {
+          "bossId": "IceDragon",
+          "bossLevel": 40,
+          "playerLevelAtFirstDefeat": 41,
+          "attemptCountAtFirstDefeat": 5
+        }
+      ],
+      "regionExplorationData": [
+        {
+          "regionId": "SnowfieldRuins",
+          "regionLevel": 38,
+          "completedExplorationPoints": 50,
+          "totalExplorationPoints": 100,
+          "completedRegionalQuests": 14,
+          "totalRegionalQuests": 40
+        },
+        {
+          "regionId": "ForestRuins",
+          "regionLevel": 32,
+          "completedExplorationPoints": 59,
+          "totalExplorationPoints": 90,
+          "completedRegionalQuests": 23,
+          "totalRegionalQuests": 38
+        },
+        {
+          "regionId": "OceanRuins",
+          "regionLevel": 34,
+          "completedExplorationPoints": 52,
+          "totalExplorationPoints": 85,
+          "completedRegionalQuests": 17,
+          "totalRegionalQuests": 28
+        },
+        {
+          "regionId": "SkyRuins",
+          "regionLevel": 43,
+          "completedExplorationPoints": 81,
+          "totalExplorationPoints": 100,
+          "completedRegionalQuests": 27,
+          "totalRegionalQuests": 34
+        },
+        {
+          "regionId": "MonasteryRuins",
+          "regionLevel": 40,
+          "completedExplorationPoints": 76,
+          "totalExplorationPoints": 110,
+          "completedRegionalQuests": 28,
+          "totalRegionalQuests": 42
+        }
+      ]
+    },
+    {
+      "identityId": "Player_08",
+      "profileIntent": "forest_boundary_with_valid_boss",
+      "playerLevel": 39,
+      "weaponUsageData": [
+        {
+          "weaponId": "Sword",
+          "owned": true,
+          "weaponLevel": 36,
+          "effectiveUseAmount": 920,
+          "activeResourceInvestment": 6100
+        },
+        {
+          "weaponId": "Bow",
+          "owned": true,
+          "weaponLevel": 16,
+          "effectiveUseAmount": 120,
+          "activeResourceInvestment": 800
+        },
+        {
+          "weaponId": "Axe",
+          "owned": true,
+          "weaponLevel": 14,
+          "effectiveUseAmount": 85,
+          "activeResourceInvestment": 500
+        },
+        {
+          "weaponId": "Staff",
+          "owned": true,
+          "weaponLevel": 22,
+          "effectiveUseAmount": 210,
+          "activeResourceInvestment": 1500
+        },
+        {
+          "weaponId": "Dagger",
+          "owned": false,
+          "weaponLevel": 0,
+          "effectiveUseAmount": 0,
+          "activeResourceInvestment": 0
+        },
+        {
+          "weaponId": "Hammer",
+          "owned": true,
+          "weaponLevel": 15,
+          "effectiveUseAmount": 90,
+          "activeResourceInvestment": 650
+        }
+      ],
+      "bossCombatData": [
+        {
+          "bossId": "Goblin",
+          "bossLevel": 24,
+          "playerLevelAtFirstDefeat": 29,
+          "attemptCountAtFirstDefeat": 3
+        }
+      ],
+      "regionExplorationData": [
+        {
+          "regionId": "SnowfieldRuins",
+          "regionLevel": 38,
+          "completedExplorationPoints": 82,
+          "totalExplorationPoints": 100,
+          "completedRegionalQuests": 28,
+          "totalRegionalQuests": 40
+        },
+        {
+          "regionId": "ForestRuins",
+          "regionLevel": 32,
+          "completedExplorationPoints": 77,
+          "totalExplorationPoints": 90,
+          "completedRegionalQuests": 30,
+          "totalRegionalQuests": 38
+        },
+        {
+          "regionId": "OceanRuins",
+          "regionLevel": 34,
+          "completedExplorationPoints": 61,
+          "totalExplorationPoints": 85,
+          "completedRegionalQuests": 19,
+          "totalRegionalQuests": 28
+        },
+        {
+          "regionId": "SkyRuins",
+          "regionLevel": 43,
+          "completedExplorationPoints": 42,
+          "totalExplorationPoints": 80,
+          "completedRegionalQuests": 11,
+          "totalRegionalQuests": 32
+        },
+        {
+          "regionId": "MonasteryRuins",
+          "regionLevel": 40,
+          "completedExplorationPoints": 62,
+          "totalExplorationPoints": 110,
+          "completedRegionalQuests": 20,
+          "totalRegionalQuests": 42
+        }
+      ]
+    },
+    {
+      "identityId": "Player_09",
+      "profileIntent": "no_valid_region_candidate",
+      "playerLevel": 47,
+      "weaponUsageData": [
+        {
+          "weaponId": "Sword",
+          "owned": true,
+          "weaponLevel": 24,
+          "effectiveUseAmount": 200,
+          "activeResourceInvestment": 1600
+        },
+        {
+          "weaponId": "Bow",
+          "owned": false,
+          "weaponLevel": 0,
+          "effectiveUseAmount": 0,
+          "activeResourceInvestment": 0
+        },
+        {
+          "weaponId": "Axe",
+          "owned": true,
+          "weaponLevel": 42,
+          "effectiveUseAmount": 1180,
+          "activeResourceInvestment": 7800
+        },
+        {
+          "weaponId": "Staff",
+          "owned": true,
+          "weaponLevel": 19,
+          "effectiveUseAmount": 140,
+          "activeResourceInvestment": 900
+        },
+        {
+          "weaponId": "Dagger",
+          "owned": true,
+          "weaponLevel": 18,
+          "effectiveUseAmount": 135,
+          "activeResourceInvestment": 850
+        },
+        {
+          "weaponId": "Hammer",
+          "owned": true,
+          "weaponLevel": 27,
+          "effectiveUseAmount": 260,
+          "activeResourceInvestment": 2200
+        }
+      ],
+      "bossCombatData": [
+        {
+          "bossId": "IceDragon",
+          "bossLevel": 40,
+          "playerLevelAtFirstDefeat": 42,
+          "attemptCountAtFirstDefeat": 6
+        },
+        {
+          "bossId": "StarGiant",
+          "bossLevel": 44,
+          "playerLevelAtFirstDefeat": 46,
+          "attemptCountAtFirstDefeat": 7
+        }
+      ],
+      "regionExplorationData": [
+        {
+          "regionId": "SnowfieldRuins",
+          "regionLevel": 38,
+          "completedExplorationPoints": 78,
+          "totalExplorationPoints": 100,
+          "completedRegionalQuests": 31,
+          "totalRegionalQuests": 40
+        },
+        {
+          "regionId": "ForestRuins",
+          "regionLevel": 32,
+          "completedExplorationPoints": 70,
+          "totalExplorationPoints": 90,
+          "completedRegionalQuests": 30,
+          "totalRegionalQuests": 38
+        },
+        {
+          "regionId": "OceanRuins",
+          "regionLevel": 34,
+          "completedExplorationPoints": 67,
+          "totalExplorationPoints": 85,
+          "completedRegionalQuests": 22,
+          "totalRegionalQuests": 28
+        },
+        {
+          "regionId": "SkyRuins",
+          "regionLevel": 43,
+          "completedExplorationPoints": 63,
+          "totalExplorationPoints": 80,
+          "completedRegionalQuests": 25,
+          "totalRegionalQuests": 32
+        },
+        {
+          "regionId": "MonasteryRuins",
+          "regionLevel": 40,
+          "completedExplorationPoints": 87,
+          "totalExplorationPoints": 110,
+          "completedRegionalQuests": 33,
+          "totalRegionalQuests": 42
+        }
+      ]
+    },
+    {
+      "identityId": "Player_10",
+      "profileIntent": "all_weapons_equal",
+      "playerLevel": 40,
+      "weaponUsageData": [
+        {
+          "weaponId": "Sword",
+          "owned": true,
+          "weaponLevel": 25,
+          "effectiveUseAmount": 100,
+          "activeResourceInvestment": 1000
+        },
+        {
+          "weaponId": "Bow",
+          "owned": true,
+          "weaponLevel": 25,
+          "effectiveUseAmount": 100,
+          "activeResourceInvestment": 1000
+        },
+        {
+          "weaponId": "Axe",
+          "owned": true,
+          "weaponLevel": 25,
+          "effectiveUseAmount": 100,
+          "activeResourceInvestment": 1000
+        },
+        {
+          "weaponId": "Staff",
+          "owned": true,
+          "weaponLevel": 25,
+          "effectiveUseAmount": 100,
+          "activeResourceInvestment": 1000
+        },
+        {
+          "weaponId": "Dagger",
+          "owned": true,
+          "weaponLevel": 25,
+          "effectiveUseAmount": 100,
+          "activeResourceInvestment": 1000
+        },
+        {
+          "weaponId": "Hammer",
+          "owned": true,
+          "weaponLevel": 25,
+          "effectiveUseAmount": 100,
+          "activeResourceInvestment": 1000
+        }
+      ],
+      "bossCombatData": [
+        {
+          "bossId": "IceDragon",
+          "bossLevel": 40,
+          "playerLevelAtFirstDefeat": 40,
+          "attemptCountAtFirstDefeat": 8
+        },
+        {
+          "bossId": "SeaTurtle",
+          "bossLevel": 34,
+          "playerLevelAtFirstDefeat": 36,
+          "attemptCountAtFirstDefeat": 4
+        }
+      ],
+      "regionExplorationData": [
+        {
+          "regionId": "SnowfieldRuins",
+          "regionLevel": 38,
+          "completedExplorationPoints": 80,
+          "totalExplorationPoints": 100,
+          "completedRegionalQuests": 32,
+          "totalRegionalQuests": 40
+        },
+        {
+          "regionId": "ForestRuins",
+          "regionLevel": 32,
+          "completedExplorationPoints": 72,
+          "totalExplorationPoints": 90,
+          "completedRegionalQuests": 30,
+          "totalRegionalQuests": 38
+        },
+        {
+          "regionId": "OceanRuins",
+          "regionLevel": 34,
+          "completedExplorationPoints": 68,
+          "totalExplorationPoints": 85,
+          "completedRegionalQuests": 23,
+          "totalRegionalQuests": 28
+        },
+        {
+          "regionId": "SkyRuins",
+          "regionLevel": 43,
+          "completedExplorationPoints": 64,
+          "totalExplorationPoints": 80,
+          "completedRegionalQuests": 26,
+          "totalRegionalQuests": 32
+        },
+        {
+          "regionId": "MonasteryRuins",
+          "regionLevel": 40,
+          "completedExplorationPoints": 88,
+          "totalExplorationPoints": 110,
+          "completedRegionalQuests": 34,
+          "totalRegionalQuests": 42
+        }
+      ]
+    },
+    {
+      "identityId": "Player_11",
+      "profileIntent": "balanced_dagger_forest_candidate",
+      "playerLevel": 41,
+      "weaponUsageData": [
+        {
+          "weaponId": "Sword",
+          "owned": true,
+          "weaponLevel": 22,
+          "effectiveUseAmount": 260,
+          "activeResourceInvestment": 1800
+        },
+        {
+          "weaponId": "Bow",
+          "owned": true,
+          "weaponLevel": 21,
+          "effectiveUseAmount": 240,
+          "activeResourceInvestment": 1700
+        },
+        {
+          "weaponId": "Axe",
+          "owned": false,
+          "weaponLevel": 0,
+          "effectiveUseAmount": 0,
+          "activeResourceInvestment": 0
+        },
+        {
+          "weaponId": "Staff",
+          "owned": true,
+          "weaponLevel": 28,
+          "effectiveUseAmount": 360,
+          "activeResourceInvestment": 2400
+        },
+        {
+          "weaponId": "Dagger",
+          "owned": true,
+          "weaponLevel": 32,
+          "effectiveUseAmount": 700,
+          "activeResourceInvestment": 4200
+        },
+        {
+          "weaponId": "Hammer",
+          "owned": true,
+          "weaponLevel": 18,
+          "effectiveUseAmount": 150,
+          "activeResourceInvestment": 900
+        }
+      ],
+      "bossCombatData": [
+        {
+          "bossId": "Goblin",
+          "bossLevel": 24,
+          "playerLevelAtFirstDefeat": 24,
+          "attemptCountAtFirstDefeat": 2
+        },
+        {
+          "bossId": "SeaTurtle",
+          "bossLevel": 34,
+          "playerLevelAtFirstDefeat": 36,
+          "attemptCountAtFirstDefeat": 3
+        }
+      ],
+      "regionExplorationData": [
+        {
+          "regionId": "SnowfieldRuins",
+          "regionLevel": 38,
+          "completedExplorationPoints": 58,
+          "totalExplorationPoints": 100,
+          "completedRegionalQuests": 19,
+          "totalRegionalQuests": 40
+        },
+        {
+          "regionId": "ForestRuins",
+          "regionLevel": 32,
+          "completedExplorationPoints": 82,
+          "totalExplorationPoints": 90,
+          "completedRegionalQuests": 35,
+          "totalRegionalQuests": 38
+        },
+        {
+          "regionId": "OceanRuins",
+          "regionLevel": 34,
+          "completedExplorationPoints": 60,
+          "totalExplorationPoints": 85,
+          "completedRegionalQuests": 18,
+          "totalRegionalQuests": 28
+        },
+        {
+          "regionId": "SkyRuins",
+          "regionLevel": 43,
+          "completedExplorationPoints": 40,
+          "totalExplorationPoints": 80,
+          "completedRegionalQuests": 12,
+          "totalRegionalQuests": 32
+        },
+        {
+          "regionId": "MonasteryRuins",
+          "regionLevel": 40,
+          "completedExplorationPoints": 74,
+          "totalExplorationPoints": 110,
+          "completedRegionalQuests": 26,
+          "totalRegionalQuests": 42
+        }
+      ]
+    },
+    {
+      "identityId": "Player_12",
+      "profileIntent": "low_progression_no_region",
+      "playerLevel": 22,
+      "weaponUsageData": [
+        {
+          "weaponId": "Sword",
+          "owned": true,
+          "weaponLevel": 12,
+          "effectiveUseAmount": 95,
+          "activeResourceInvestment": 350
+        },
+        {
+          "weaponId": "Bow",
+          "owned": true,
+          "weaponLevel": 8,
+          "effectiveUseAmount": 40,
+          "activeResourceInvestment": 100
+        },
+        {
+          "weaponId": "Axe",
+          "owned": false,
+          "weaponLevel": 0,
+          "effectiveUseAmount": 0,
+          "activeResourceInvestment": 0
+        },
+        {
+          "weaponId": "Staff",
+          "owned": false,
+          "weaponLevel": 0,
+          "effectiveUseAmount": 0,
+          "activeResourceInvestment": 0
+        },
+        {
+          "weaponId": "Dagger",
+          "owned": true,
+          "weaponLevel": 6,
+          "effectiveUseAmount": 25,
+          "activeResourceInvestment": 50
+        },
+        {
+          "weaponId": "Hammer",
+          "owned": false,
+          "weaponLevel": 0,
+          "effectiveUseAmount": 0,
+          "activeResourceInvestment": 0
+        }
+      ],
+      "bossCombatData": [
+        {
+          "bossId": "Goblin",
+          "bossLevel": 24,
+          "playerLevelAtFirstDefeat": 22,
+          "attemptCountAtFirstDefeat": 4
+        }
+      ],
+      "regionExplorationData": [
+        {
+          "regionId": "SnowfieldRuins",
+          "regionLevel": 38,
+          "completedExplorationPoints": 20,
+          "totalExplorationPoints": 100,
+          "completedRegionalQuests": 5,
+          "totalRegionalQuests": 40
+        },
+        {
+          "regionId": "ForestRuins",
+          "regionLevel": 32,
+          "completedExplorationPoints": 35,
+          "totalExplorationPoints": 90,
+          "completedRegionalQuests": 8,
+          "totalRegionalQuests": 38
+        },
+        {
+          "regionId": "OceanRuins",
+          "regionLevel": 34,
+          "completedExplorationPoints": 12,
+          "totalExplorationPoints": 85,
+          "completedRegionalQuests": 2,
+          "totalRegionalQuests": 28
+        },
+        {
+          "regionId": "SkyRuins",
+          "regionLevel": 43,
+          "completedExplorationPoints": 5,
+          "totalExplorationPoints": 80,
+          "completedRegionalQuests": 0,
+          "totalRegionalQuests": 32
+        },
+        {
+          "regionId": "MonasteryRuins",
+          "regionLevel": 40,
+          "completedExplorationPoints": 18,
+          "totalExplorationPoints": 110,
+          "completedRegionalQuests": 4,
+          "totalRegionalQuests": 42
+        }
+      ]
+    }
+  ]
+}

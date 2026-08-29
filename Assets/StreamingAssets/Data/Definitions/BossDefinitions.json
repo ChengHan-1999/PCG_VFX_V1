@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "0.1.0",
+  "definitionType": "Boss",
+  "valueAxes": {
+    "challengeDifficulty": "Researcher/designer-defined estimate of the mechanical challenge of defeating the boss, normalized to [0, 1].",
+    "rarity": "Researcher/designer-defined estimate of how rare or prestigious the boss defeat is within the synthetic game setting, normalized to [0, 1]."
+  },
+  "bosses": [
+    {
+      "bossId": "IceDragon",
+      "challengeDifficulty": 0.70,
+      "rarity": 0.50
+    },
+    {
+      "bossId": "Goblin",
+      "challengeDifficulty": 0.25,
+      "rarity": 0.15
+    },
+    {
+      "bossId": "SeaTurtle",
+      "challengeDifficulty": 0.45,
+      "rarity": 0.35
+    },
+    {
+      "bossId": "StarGiant",
+      "challengeDifficulty": 0.85,
+      "rarity": 0.75
+    },
+    {
+      "bossId": "AncientCultLeader",
+      "challengeDifficulty": 0.80,
+      "rarity": 0.70
+    }
+  ]
+}

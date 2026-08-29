@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "0.1.0",
+  "slotType": "Region",
+  "themeAxes": ["Ice", "Forest", "Galaxy", "Ocean", "Holy"],
+  "textureAtlasPath": "Textures/RegionAtlas",
+  "atlasLayout": {
+    "columns": 3,
+    "rows": 2
+  },
+  "candidates": [
+    {
+      "moduleId": "Region_SnowfieldRuins",
+      "slotType": "Region",
+      "dataSourceId": "SnowfieldRuins",
+      "atlasIndex": 0,
+      "texturePath": "Textures/RegionAtlas",
+      "semanticVector": [0.90, 0.00, 0.00, 0.05, 0.15]
+    },
+    {
+      "moduleId": "Region_ForestRuins",
+      "slotType": "Region",
+      "dataSourceId": "ForestRuins",
+      "atlasIndex": 1,
+      "texturePath": "Textures/RegionAtlas",
+      "semanticVector": [0.00, 0.90, 0.00, 0.05, 0.10]
+    },
+    {
+      "moduleId": "Region_OceanRuins",
+      "slotType": "Region",
+      "dataSourceId": "OceanRuins",
+      "atlasIndex": 2,
+      "texturePath": "Textures/RegionAtlas",
+      "semanticVector": [0.05, 0.00, 0.00, 0.90, 0.15]
+    },
+    {
+      "moduleId": "Region_SkyRuins",
+      "slotType": "Region",
+      "dataSourceId": "SkyRuins",
+      "atlasIndex": 3,
+      "texturePath": "Textures/RegionAtlas",
+      "semanticVector": [0.05, 0.00, 0.90, 0.05, 0.20]
+    },
+    {
+      "moduleId": "Region_MonasteryRuins",
+      "slotType": "Region",
+      "dataSourceId": "MonasteryRuins",
+      "atlasIndex": 4,
+      "texturePath": "Textures/RegionAtlas",
+      "semanticVector": [0.05, 0.05, 0.20, 0.00, 0.90]
+    }
+  ]
+}

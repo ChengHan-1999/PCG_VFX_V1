@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "0.1.0",
+  "slotType": "Weapon",
+  "themeAxes": ["Ice", "Forest", "Galaxy", "Ocean", "Holy"],
+  "textureAtlasPath": "Textures/WeaponAtlas",
+  "atlasLayout": {
+    "columns": 3,
+    "rows": 2
+  },
+  "candidates": [
+    {
+      "moduleId": "Weapon_Sword",
+      "slotType": "Weapon",
+      "dataSourceId": "Sword",
+      "atlasIndex": 0,
+      "texturePath": "Textures/WeaponAtlas",
+      "semanticVector": [1.00, 0.00, 0.00, 0.00, 0.00]
+    },
+    {
+      "moduleId": "Weapon_Bow",
+      "slotType": "Weapon",
+      "dataSourceId": "Bow",
+      "atlasIndex": 1,
+      "texturePath": "Textures/WeaponAtlas",
+      "semanticVector": [0.00, 1.00, 0.00, 0.00, 0.00]
+    },
+    {
+      "moduleId": "Weapon_Axe",
+      "slotType": "Weapon",
+      "dataSourceId": "Axe",
+      "atlasIndex": 2,
+      "texturePath": "Textures/WeaponAtlas",
+      "semanticVector": [0.00, 0.00, 0.00, 1.00, 0.00]
+    },
+    {
+      "moduleId": "Weapon_Staff",
+      "slotType": "Weapon",
+      "dataSourceId": "Staff",
+      "atlasIndex": 3,
+      "texturePath": "Textures/WeaponAtlas",
+      "semanticVector": [0.00, 0.00, 0.00, 0.00, 1.00]
+    },
+    {
+      "moduleId": "Weapon_Dagger",
+      "slotType": "Weapon",
+      "dataSourceId": "Dagger",
+      "atlasIndex": 4,
+      "texturePath": "Textures/WeaponAtlas",
+      "semanticVector": [0.00, 0.00, 1.00, 0.00, 0.00]
+    },
+    {
+      "moduleId": "Weapon_Hammer",
+      "slotType": "Weapon",
+      "dataSourceId": "Hammer",
+      "atlasIndex": 5,
+      "texturePath": "Textures/WeaponAtlas",
+      "semanticVector": [0.00, 0.00, 0.55, 0.00, 0.45]
+    }
+  ]
+}

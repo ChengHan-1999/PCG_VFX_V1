@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "0.1.0",
+  "slotType": "Boss",
+  "themeAxes": ["Ice", "Forest", "Galaxy", "Ocean", "Holy"],
+  "textureAtlasPath": "Textures/BossAtlas",
+  "atlasLayout": {
+    "columns": 3,
+    "rows": 2
+  },
+  "candidates": [
+    {
+      "moduleId": "Boss_IceDragon",
+      "slotType": "Boss",
+      "dataSourceId": "IceDragon",
+      "atlasIndex": 0,
+      "texturePath": "Textures/BossAtlas",
+      "semanticVector": [0.85, 0.05, 0.00, 0.10, 0.20],
+      "eligibilityRule": "defeated == true"
+    },
+    {
+      "moduleId": "Boss_Goblin",
+      "slotType": "Boss",
+      "dataSourceId": "Goblin",
+      "atlasIndex": 1,
+      "texturePath": "Textures/BossAtlas",
+      "semanticVector": [0.00, 0.80, 0.00, 0.00, 0.00],
+      "eligibilityRule": "defeated == true"
+    },
+    {
+      "moduleId": "Boss_SeaTurtle",
+      "slotType": "Boss",
+      "dataSourceId": "SeaTurtle",
+      "atlasIndex": 2,
+      "texturePath": "Textures/BossAtlas",
+      "semanticVector": [0.05, 0.05, 0.00, 0.90, 0.05],
+      "eligibilityRule": "defeated == true"
+    },
+    {
+      "moduleId": "Boss_StarGiant",
+      "slotType": "Boss",
+      "dataSourceId": "StarGiant",
+      "atlasIndex": 3,
+      "texturePath": "Textures/BossAtlas",
+      "semanticVector": [0.00, 0.00, 0.95, 0.00, 0.15],
+      "eligibilityRule": "defeated == true"
+    },
+    {
+      "moduleId": "Boss_AncientCultLeader",
+      "slotType": "Boss",
+      "dataSourceId": "AncientCultLeader",
+      "atlasIndex": 4,
+      "texturePath": "Textures/BossAtlas",
+      "semanticVector": [0.10, 0.05, 0.30, 0.00, 0.85],
+      "eligibilityRule": "defeated == true"
+    }
+  ]
+}
