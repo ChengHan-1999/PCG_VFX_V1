@@ -30,7 +30,7 @@ The magic circle will display the generated weapon, boss, and region textures, f
 
 1. Select `VFX_MagicCircle`.
 2. Disable **Pcg Generation Test Runner** and enable **Dynamic Trajectory Test Runner**.
-3. Keep `Trajectory Relative Path` as `Dynamic/DynamicPlayerTrajectory_Player01.json`, `Seed Base` as **3001**, and enable **Play Trajectory In Scene**.
+3. Keep `Trajectory Relative Path` as `Dynamic/DynamicPlayerTrajectory_Player01.json`, `Seed Base` as **99**, and enable **Play Trajectory In Scene**.
 4. Enter Play mode.
 
 The prototype plays the seven nodes of the Player_01 trajectory in chronological order. Each node updates the visible slots, theme, and VFX output. Node information is printed to the Unity Console.
