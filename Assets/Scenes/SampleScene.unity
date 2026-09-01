@@ -660,12 +660,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659272343}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d922207c2d9b234eb70030b47e221d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profileId: Player_03
+  profileId: Player_06
   seed: 99
   runOnStart: 1
   printCandidateDetails: 1
@@ -726,7 +726,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659272343}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f87d2f67cd8d5bf43b9a2c52b8ca7152, type: 3}
   m_Name: 
